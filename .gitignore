@@ -1,0 +1,10 @@
+*~
+*.pyc
+#*
+.#*
+*.out
+.DS_Store
+.oh-my-zsh
+*.swp
+.zsh_history
+
