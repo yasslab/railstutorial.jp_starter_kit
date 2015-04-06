@@ -1,4 +1,4 @@
-# Railsチュートリアル スターターキットについて
+# Railsチュートリアル スターターキット
 
 本ツールは、Railsチュートリアルの環境構築がうまくいかない人向けの救済ツールです。
 
@@ -37,13 +37,14 @@ Railsチュートリアルが始められる環境が整います (Windows 8 / M
 
 ## 本ツールを使った環境構築の手順
 
-1. VirtualBoxいれる
-2. Vagrantいれる
-3. Windowsの場合: 英字のローカルアカウントを作る
-4. Windowsの場合: sshクライアント(TeraTerm等)入れる
+1. [VirtualBox](http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html?ssSourceSiteId=otnjp)をインストールする
+2. [Vagrant](https://www.vagrantup.com/downloads.html)をインストールする
+3. Windowsの場合: 英字のローカルアカウントを作る (`ror`など)
+4. Windowsの場合: sshクライアント([TeraTerm](http://ttssh2.sourceforge.jp/)など)をインストールする
 5. `Vagrantfile` があるディレクトリに移動して、`vagrant up`を実行する
 6. `vagrant ssh` でゲストOSにログインする
 7. `ruby --version` や `rails --version` でちゃんと動くか確かめる
+
 
 ### 動作確認
 
@@ -74,13 +75,15 @@ bundle exec rails server
 
 公開鍵の登録や暗号鍵の登録が少し難しいので、
 HerokuへのデプロイやGitHubへのpushは少し難しいかもしれません :(
+
 とはいえ、Railsチュートリアルの開発において支障は無いので、
-本ツールを使って開発を進める場合は、HerokuへのデプロイやGitHubへのpushは飛ばしてお読みください.
+本ツールを使って開発を進める場合は、HerokuへのデプロイやGitHubへのpushは飛ばしてお読みください.   
 (２週目で、ぜひ自分のPCへの環境構築にトライしてみてください!)
 
 
+## 最後に
 
-Railsチュートリアルの環境構築が難しくてうまくいかなかった際などにご活用ください :)
+Railsチュートリアルの環境構築が難しくてうまくいかなかったときなどに、本ツールをご活用ください :)   
 本ツールが読者のお役に立っていれば幸いです.
 
 ヤスラボ チーム一同
