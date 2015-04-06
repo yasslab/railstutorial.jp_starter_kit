@@ -85,3 +85,16 @@ Railsチュートリアルの環境構築が難しくてうまくいかなかっ
 
 ヤスラボ チーム一同
 http://yasslab.jp/
+
+
+
+
+### おまけ
+
+今回のゲストOSでは次のスクリプトを実行して作成されています。
+もし興味があれば、覗いてみてもよいかもしれません :)
+
+ゲストOSの構築スクリプト
+https://github.com/hanachin/railstutorial_box/blob/master/bootstrap.sh
+
+
