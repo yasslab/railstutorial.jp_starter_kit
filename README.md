@@ -97,6 +97,6 @@ http://yasslab.jp/
 もし興味があれば、覗いてみてもよいかもしれません :)
 
 ゲストOSの構築スクリプト    
-https://github.com/hanachin/railstutorial_box/blob/master/bootstrap.sh
+https://github.com/YassLab/railstutorial_box/blob/master/bootstrap.sh
 
 
