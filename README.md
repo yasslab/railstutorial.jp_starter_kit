@@ -102,11 +102,13 @@ https://github.com/YassLab/railstutorial_box/blob/master/bootstrap.sh
 
 - [yasslab/sample_apps](https://github.com/yasslab/sample_apps)
 - [yasslab/railstutorial.jp](https://github.com/yasslab/railstutorial.jp)
-- [Railsチュートリアル](http://railstutorial.jp/)
+- [Rails チュートリアル](http://railstutorial.jp)
+- [Rails 解説セミナー](http://railstutorial.jp/seminars)
+- [Rails スクリーンキャスト](http://railstutorial.jp/screencasts)
+- [Rails ガイド](http://railsguides.jp)
+
 
 ## ライセンス
-
-# 本リポジトリのライセンス
 
 The MIT License (MIT)
 
