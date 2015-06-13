@@ -1,6 +1,6 @@
 # Railsチュートリアル スターターキット
 
-本ツールは、Railsチュートリアルの環境構築がうまくいかない人向けの救済ツールです。
+本ツールは、[Railsチュートリアル](http://railstutorial.jp)の環境構築がうまくいかない人向けの救済ツールです。
 
 HerokuやGitHubのセットアップは各自でやる必要がありますが(やや難しいかもしれません)、
 Ruby/Railsを使った開発はすぐにできるようにセットアップされています :)
@@ -89,9 +89,7 @@ Railsチュートリアルの環境構築が難しくてうまくいかなかっ
 http://yasslab.jp/
 
 
-
-
-### おまけ
+### オマケ
 
 今回のゲストOSでは次のスクリプトを実行して作成されています。    
 もし興味があれば、覗いてみてもよいかもしれません :)
@@ -100,3 +98,34 @@ http://yasslab.jp/
 https://github.com/YassLab/railstutorial_box/blob/master/bootstrap.sh
 
 
+## 関連リポジトリ/リンク
+
+- [yasslab/sample_apps](https://github.com/yasslab/sample_apps)
+- [yasslab/railstutorial.jp](https://github.com/yasslab/railstutorial.jp)
+- [Railsチュートリアル](http://railstutorial.jp/)
+
+## ライセンス
+
+# 本リポジトリのライセンス
+
+The MIT License (MIT)
+
+Copyright &copy; 2015 [YassLab](http://yasslab.jp)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
