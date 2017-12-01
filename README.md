@@ -55,7 +55,7 @@ Railsチュートリアルが始められる環境が整います (Windows 8 / M
 
 ```sh
 git clone https://github.com/yasslab/sample_apps.git
-cd sample_apps/ch11
+cd sample_apps/5_1_2/ch14
 bundle install
 bundle exec rake db:migrate
 bundle exec rake db:populate
