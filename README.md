@@ -1,6 +1,6 @@
 # Railsチュートリアル スターターキット
 
-本ツールは、[Railsチュートリアル](http://railstutorial.jp)の環境構築がうまくいかない人向けの救済ツールです。
+本ツールは、[Railsチュートリアル](https://railstutorial.jp)の環境構築がうまくいかない人向けの救済ツールです。
 
 HerokuやGitHubのセットアップは各自でやる必要がありますが(やや難しいかもしれません)、
 Ruby/Railsを使った開発はすぐにできるようにセットアップされています :)
@@ -85,8 +85,8 @@ HerokuへのデプロイやGitHubへのpushは少し難しいかもしれませ�
 Railsチュートリアルの環境構築が難しくてうまくいかなかったときなどに、本ツールをご活用ください。
 本ツールが読者のお役に立っていれば幸いです.
 
-ヤスラボ社　チーム一同    
-http://yasslab.jp/
+YassLab チーム一同    
+https://yasslab.jp/
 
 
 ### オマケ
@@ -102,32 +102,15 @@ https://github.com/YassLab/railstutorial_box/blob/master/bootstrap.sh
 
 - [yasslab/sample_apps](https://github.com/yasslab/sample_apps)
 - [yasslab/railstutorial.jp](https://github.com/yasslab/railstutorial.jp)
-- [Rails チュートリアル](http://railstutorial.jp)
-- [Rails 解説セミナー](http://railstutorial.jp/seminars)
-- [Rails スクリーンキャスト](http://railstutorial.jp/screencasts)
-- [Rails ガイド](http://railsguides.jp)
+- [Rails チュートリアル](https://railstutorial.jp)
+- [Rails 解説動画](https://railstutorial.jp/#screencast)
+- [Rails ガイド](https://railsguides.jp)
 
 
 ## ライセンス
 
 The MIT License (MIT)
 
-Copyright &copy; 2015 [YassLab](http://yasslab.jp)
+Copyright &copy; 2015-2017 [YassLab](https://yasslab.jp)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+![YassLab Logo](https://raw.githubusercontent.com/yasslab/railsguides.jp/master/yasslab/logo_800x200.png)
