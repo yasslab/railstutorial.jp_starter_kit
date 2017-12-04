@@ -71,15 +71,13 @@ Railsチュートリアルが始められる環境が整います (Windows 8 / M
 git clone https://github.com/yasslab/sample_apps.git
 cd sample_apps/5_1_2/ch14
 bundle install
-bundle exec rake db:migrate
-bundle exec rake db:populate
-bundle exec rake db:test:prepare
+rails db:migrate
 
 # テストが通ることを確認する
-bundle exec rspec
+rails test
 
 # rails server が立ち上がるか確認する
-bundle exec rails server
+rails server
 
 # ホストOS (お手持ちのパソコン) のブラウザを立ち上げ、
 # アドレズバーに http://localhost:3000/ を打ち込んで画面が開くか確認する
