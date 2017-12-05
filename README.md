@@ -45,21 +45,6 @@ Railsチュートリアルが始められる環境が整います (Windows 8 / M
 6. `vagrant ssh` でゲストOSにログインする
 7. `ruby --version` や `rails --version` でちゃんと動くか確かめる
 
-### 最新版のRailsを使う
-ステップ`7.`を行なった際に表示されるバージョンが`ruby 2.0.0p643...`と`Rails 4.0.5`だ
-
-バージョンが古いので、最新の `ruby 2.4.2`と`Rails 5.1.2`を使うようにする。
-
-次のコマンドを１行ずつ打っていって、最新のRailsを使えるようなります。
-1. `$ cd ~/.rbenv/plugins/ruby-build `
-2. `$ git pull origin master`
-3. `$ cd`
-4. `$ rbenv install 2.4.2`
-5. `$ rbenv global 2.4.2`
-6. `$ gem install rails -v '5.1.2'`
-7. `$ ruby --version` や `rails --version` などでちゃんと指定したバージョンになっているか確認してください。
-
-
 ### 動作確認
 
 もしちゃんと開発できるか不安であれば、
@@ -82,6 +67,18 @@ rails server
 # ホストOS (お手持ちのパソコン) のブラウザを立ち上げ、
 # アドレズバーに http://localhost:3000/ を打ち込んで画面が開くか確認する
 ```
+
+### 他のRailsバージョンを使う
+
+Railsには様々なバージョンがあります。
+このツールでは、最新版のRailsが使えるようになっていますが、過去のバージョンを使うこともできます。
+`vagrant ssh`でログインしたあと、次のコマンドを１行ずつ打っていって、特定のバージョンのRailsを使えるようにできます。
+
+今回は`Rails 5.0.0`をインストールしてみましょう。
+1. `$ rbenv install 2.3.0`
+2. `$ rbenv global 2.3.0`
+3. `$ gem install rails -v '5.0.0'`
+4. `$ ruby --version` や `rails --version` などでちゃんと指定したバージョンになっているか確認してください。
 
 ### 注意点
 
