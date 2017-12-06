@@ -36,14 +36,15 @@ Railsチュートリアルが始められる環境が整います (Windows 8 / M
 ```
 
 ## 本ツールを使った環境構築の手順
-
 1. [VirtualBox](http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html?ssSourceSiteId=otnjp)をインストールする
 2. [Vagrant](https://www.vagrantup.com/downloads.html)をインストールする
-3. Windowsの場合: 英字のローカルアカウントを作る (`ror`など)
-4. Windowsの場合: sshクライアント([TeraTerm](http://ttssh2.sourceforge.jp/)など)をインストールする
+3. ~~Windowsの場合: 英字のローカルアカウントを作る (`ror`など)~~
+4. ~~Windowsの場合: sshクライアント([TeraTerm](http://ttssh2.sourceforge.jp/)など)をインストールする~~
 5. `Vagrantfile` があるディレクトリに移動して、`vagrant up`を実行する
 6. `vagrant ssh` でゲストOSにログインする
 7. `ruby --version` や `rails --version` でちゃんと動くか確かめる
+
+(*Windowsでの利用の確認は現在取れていません、現在対応中のためお待ち下さい*)
 
 ### 動作確認
 
