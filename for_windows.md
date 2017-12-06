@@ -52,7 +52,7 @@ $ git clone https://github.com/yasslab/railstutorial.jp_starter_kit.git
 
 2. `Vagrantfile` があるディレクトリに移動して、`vagrant up`を実行する
 
-`cd`で移動した中に `Vafrantfile`があるので次のコマンドで実行する
+`cd`で移動した中に `Vagrantfile`があるので次のコマンドで実行する
 
 ```
 $ cd /railstutorial.jp_starter_kit
