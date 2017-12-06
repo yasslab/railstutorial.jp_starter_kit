@@ -36,15 +36,15 @@ Railsチュートリアルが始められる環境が整います (Windows 8 / M
 ```
 
 ## 本ツールを使った環境構築の手順
-
 1. [VirtualBox](http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html?ssSourceSiteId=otnjp)をインストールする
 2. [Vagrant](https://www.vagrantup.com/downloads.html)をインストールする
-3. Windowsの場合: 英字のローカルアカウントを作る (`ror`など)
-4. Windowsの場合: sshクライアント([TeraTerm](http://ttssh2.sourceforge.jp/)など)をインストールする
+3. ~~Windowsの場合: 英字のローカルアカウントを作る (`ror`など)~~
+4. ~~Windowsの場合: sshクライアント([TeraTerm](http://ttssh2.sourceforge.jp/)など)をインストールする~~
 5. `Vagrantfile` があるディレクトリに移動して、`vagrant up`を実行する
 6. `vagrant ssh` でゲストOSにログインする
 7. `ruby --version` や `rails --version` でちゃんと動くか確かめる
 
+(*Windowsでの利用の確認は現在取れていません、現在対応中のためお待ち下さい*)
 
 ### 動作確認
 
@@ -57,19 +57,29 @@ Railsチュートリアルが始められる環境が整います (Windows 8 / M
 git clone https://github.com/yasslab/sample_apps.git
 cd sample_apps/5_1_2/ch14
 bundle install
-bundle exec rake db:migrate
-bundle exec rake db:populate
-bundle exec rake db:test:prepare
+rails db:migrate
 
 # テストが通ることを確認する
-bundle exec rspec
+rails test
 
 # rails server が立ち上がるか確認する
-bundle exec rails server
+rails server
 
 # ホストOS (お手持ちのパソコン) のブラウザを立ち上げ、
 # アドレズバーに http://localhost:3000/ を打ち込んで画面が開くか確認する
 ```
+
+### 他のRailsバージョンを使う
+
+Railsには様々なバージョンがあります。
+このツールでは、最新版のRailsが使えるようになっていますが、過去のバージョンを使うこともできます。
+`vagrant ssh`でログインしたあと、次のコマンドを１行ずつ打っていって、特定のバージョンのRailsを使えるようにできます。
+
+今回は`Rails 5.0.0`をインストールしてみましょう。
+1. `$ rbenv install 2.3.0`
+2. `$ rbenv global 2.3.0`
+3. `$ gem install rails -v '5.0.0'`
+4. `$ ruby --version` や `rails --version` などでちゃんと指定したバージョンになっているか確認してください。
 
 ### 注意点
 
