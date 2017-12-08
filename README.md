@@ -31,7 +31,7 @@ Railsチュートリアルが始められる環境が整います (Windows 8 / M
 
 ## 本ツールを使った環境構築の手順
 
-まずは下記のリンクからスターターキットをダウンロードします。   
+まずは下記リンクからスターターキットをダウンロードし、Zip ファイルを展開します。   
 https://github.com/yasslab/railstutorial.jp_starter_kit/archive/master.zip
 
 
