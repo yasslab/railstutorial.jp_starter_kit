@@ -98,15 +98,6 @@ YassLab チーム一同
 https://yasslab.jp/
 
 
-### オマケ
-
-今回のゲストOSでは次のスクリプトを実行して作成されています。    
-もし興味があれば、覗いてみてもよいかもしれません :)
-
-ゲストOSの構築スクリプト    
-https://github.com/YassLab/railstutorial_box/blob/master/bootstrap.sh
-
-
 ## 関連リポジトリ/リンク
 
 - [yasslab/sample_apps](https://github.com/yasslab/sample_apps)
