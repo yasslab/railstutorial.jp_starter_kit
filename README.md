@@ -1,11 +1,8 @@
 # Railsチュートリアル スターターキット
 
-本ツールは、仮想環境 (VirtualBox + Vagrant) を使って[Railsチュートリアル](https://railstutorial.jp)の環境構築するツールです。
+本ツールは、仮想環境 (VirtualBox + Vagrant) を使って[Railsチュートリアル](https://railstutorial.jp)の環境構築をするためのものです。Railsの環境構築にお困りの場合は試してみてください :)
 
-Herokuのセットアップは各自でやる必要がありますが、Railsの環境構築にお困りの場合は試してみてください :)
-
-なお、RailsチュートリアルではHerokuやBitBucket/GitHubの項目をスキップしても次に進めるように構成されています。このため、Railsの開発環境さえ整えばRailsチュートリアルを最後まで読み進めることが可能です。
-
+なお、RailsチュートリアルではHeroku/BitBucket/GitHubの項目をスキップしても次に進めるように構成されています。このため、Railsの開発環境さえ整えばRailsチュートリアルを最後まで読み進めることが可能です。
 
 ## ファイル構成
 
@@ -33,6 +30,10 @@ Railsチュートリアルが始められる環境が整います (Windows 8 / M
 ```
 
 ## 本ツールを使った環境構築の手順
+
+まずは下記のリンクからスターターキットをダウンロードします。   
+https://github.com/yasslab/railstutorial.jp_starter_kit/archive/master.zip
+
 
 ###  Mac/Linuxの場合
 1. [VirtualBox](http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html?ssSourceSiteId=otnjp)をインストールする
