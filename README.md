@@ -113,4 +113,4 @@ The MIT License (MIT)
 
 Copyright &copy; 2015-2017 [YassLab](https://yasslab.jp)
 
-![YassLab Logo](https://raw.githubusercontent.com/yasslab/railsguides.jp/master/yasslab/logo_800x200.png)
+![YassLab Logo](https://yasslab.jp/img/logo_800x200.png)
